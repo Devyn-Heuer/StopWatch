@@ -1,0 +1,65 @@
+body {
+	 background: #086464;
+	 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	 height: 100%;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center; 
+	 overflow: hidden;
+	 white-space: nowrap;
+	 padding: 10%;
+}
+
+ .wrapper {
+	 width: 800px;
+	 margin: 30px auto;
+	 color: rgba(255, 255, 255, 0.781);
+	 text-align: center;
+	}
+
+ h1, h2, h3 {
+	 font-family: 'Roboto', sans-serif;
+	 font-weight: 400;
+	 font-size: 2.6em;
+	 text-transform: uppercase;
+	 text-shadow: black 2px 2px 2px;
+	 margin: 10;
+}
+
+ #seconds, #milli, #colon, #minutes {
+	 font-size: 3em;
+	 text-shadow: black 2px 2px 2px;
+
+}
+
+#button-start {
+	background: #11af19e7;
+}
+
+#button-stop {
+	background: #f81111e7;
+}
+
+#button-reset {
+	background: #394244e7;
+}
+
+ button {
+	 border-radius: 5px;
+	 color: #fff;
+	 border: solid 1px #fff;
+	 text-decoration: none;
+	 cursor: pointer;
+	 font-size: 1.2em;
+	 padding: 18px 10px;
+	 width: 180px;
+	 margin: 10px;
+	 outline: none;
+}
+
+ button:hover {
+	 transition: all 0.5s ease-in-out;
+	 background: #fff;
+	 border: solid 1px #fff;
+	 color: #ffa600;
+}
